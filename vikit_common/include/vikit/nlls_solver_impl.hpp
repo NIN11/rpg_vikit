@@ -315,7 +315,7 @@ inline const double& vk::NLLSSolver<D, T>::getChi2() const
 }
 
 template <int D, typename T>
-inline const vk::Matrix<double, D, D>& vk::NLLSSolver<D, T>::getInformationMatrix() const
+inline const Eigen::Matrix<double, D, D>& vk::NLLSSolver<D, T>::getInformationMatrix() const
 {
   return H_;
 }
