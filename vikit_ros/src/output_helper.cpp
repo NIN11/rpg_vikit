@@ -11,9 +11,8 @@
 namespace vk {
 namespace output_helper {
 
-template <class Scalar_>
 void
-publishTfTransform(const Sophus::SE3<Scalar_>& T, const ros::Time& stamp,
+publishTfTransform(const Sophus::SE3d& T, const ros::Time& stamp,
                    const string& frame_id, const string& child_frame_id,
                    tf::TransformBroadcaster& br)
 {
