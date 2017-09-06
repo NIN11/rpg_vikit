@@ -20,8 +20,9 @@ namespace output_helper {
 using namespace std;
 using namespace Eigen;
 
+template <class Scalar_>
 void
-publishTfTransform      (const Sophus::SE3& T, const ros::Time& stamp,
+publishTfTransform      (const Sophus::SE3<Scalar_>& T, const ros::Time& stamp,
                          const string& frame_id, const string& child_frame_id,
                          tf::TransformBroadcaster& br);
 
