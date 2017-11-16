@@ -1,6 +1,6 @@
-VIKIT
+vikit1
 -----
 
-Vikit (Vision-Kit) provides some tools for your vision/robotics project.
+vikit1 (Vision-Kit) provides some tools for your vision/robotics project.
 Far from stable.
 
